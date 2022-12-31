@@ -38,4 +38,48 @@
 }
 #img-change{
   width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  padding: 10px 50px;
+  margin: 0 auto;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.card{
+  margin: 20px ;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  width: fit-content;
+  min-height: 300px;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.btn:hover{
+  background-color: cadetblue;
+}
+
+h1, h4, p{
+  text-align: center;
+}
+.count{
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+  margin: 0 auto;
+  color: darkred;
+  width: 100%;
 }
