@@ -26,7 +26,7 @@ export default class App extends Component {
   }
   render() {
     console.log("render")
-    // setInterval(this.handlePlus, 1000);
+     setInterval(this.handleShow, 1000);
 
     return (
       <div>
